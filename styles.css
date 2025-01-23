@@ -14,7 +14,7 @@ section {
     top: 50%;         /* Vertically center it on the page */
     left: 50%;        /* Horizontally center it on the page */
     transform: translate(-50%, -50%); /* Adjusts to ensure the selector is perfectly centered */
-    background-color: hsl(9, 100%, 60%);
+    background-color: #fff;
     border: 1px solid #ccc;
     padding: 5px;
     font-size: 14px;
@@ -31,7 +31,7 @@ section {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffcc00;
+    background-color: hsla(9, 100%, 60%, 0.5);
     color: #333;
     line-height: 1.6;
 }
