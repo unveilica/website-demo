@@ -133,31 +133,6 @@ header ul li a {
     font-weight: 500;
 }
 
-##################
-
-/* Default styles (for desktop or larger screens) */
-body {
-  font-size: 16px;
-}
-
-/* Mobile styles (for screens smaller than 768px) */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
-
-/* Smaller devices (like phones in portrait mode) */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-}
-
-#################
-
-
-
 /* General Section Styling */
 section {
     max-width: 1000px;  /* Set a max-width to prevent sections from being too wide */
