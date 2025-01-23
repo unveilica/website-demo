@@ -226,8 +226,7 @@ section {
     display: block;
     color: black; /* Ensure it's visible */
     margin-top: 10px;
-    margin-left: -10px;
-    padding-left: 50px;
+    padding-left: 300px;
 
 }
 
@@ -240,7 +239,7 @@ section {
         transform: translateY(-50%);
         width: 150px;  /* Adjust as needed */
         height: auto;
-        margin-left: -150;
+        margin-left: -100;
 
     }
 
