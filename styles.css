@@ -266,7 +266,7 @@ section {
         padding-left: 50px;  /* Adjust left padding */
         padding-right: 50px; /* Adjust right padding */
         text-align: center;   /* Keep section text centered */
-        position: relative;   /* Ensure section's positioning context */
+        /*position: relative;    Ensure section's positioning context */
     }
 </style>
 
