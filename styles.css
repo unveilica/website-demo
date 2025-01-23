@@ -235,27 +235,27 @@ section {
     .section-image {
         width: 150px;  /* Adjust as needed */
         height: auto;
-        margin-left: auto;
-        margin-right: auto; /* Keep centering the images within their container */
+     /*   margin-left: auto;*/
+      /*  margin-right: auto; /* Keep centering the images within their container */
         display: block; /* Ensures it's a block element */
     }
 
     /* Left image styles */
     .left-image_pr {
         position: relative;
-        left: -200px;  /* Move left image even further to the left */
+        left: -500px;  /* Move left image even further to the left */
     }
 
     /* Right image styles */
     .right-image_pr {
         position: relative;
-        right: -200px; /* Move right image even further to the left */
+        right: -500px; /* Move right image even further to the left */
     }
 
     /* Additional image class styles */
     .class-image_pr {
         position: relative;
-        right: -200px; /* Shift image further left */
+        right: -500px; /* Shift image further left */
     }
 
     /* KPI image specific style */
