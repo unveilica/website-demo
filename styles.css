@@ -222,56 +222,56 @@ section {
 
 
 /*################## */
+#demonstrations-title {
+    display: block;
+    color: black; /* Ensure it's visible */
+    margin-top: 10px;
+    padding-left: 300px;
+
+}
 
 <style>
-    /* Title centering */
-    #demonstrations-title {
-        display: block;
-        color: black;
-        margin-top: 10px;
-        text-align: center; /* Keep title centered */
-    }
-
     /* General styles for the images */
     .section-image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         width: 150px;  /* Adjust as needed */
         height: auto;
-        margin-left: auto;
-        margin-right: auto; /* Keep centering the images within their container */
-        display: block; /* Ensures it's a block element */
+        margin-left: -100;
+
     }
 
     /* Left image styles */
     .left-image_pr {
-        position: relative;
-        left: -200px;  /* Move left image even further to the left */
+        left: 0;
     }
 
     /* Right image styles */
     .right-image_pr {
-        position: relative;
-        right: -200px; /* Move right image even further to the left */
+        right: 0;
     }
-
-    /* Additional image class styles */
+    
+    /* Right image styles */
     .class-image_pr {
-        position: relative;
-        right: -200px; /* Shift image further left */
+        right: 0;
     }
 
-    /* KPI image specific style */
+
+    /* Right image styles */
     .KPI-image_pr {
-        position: relative;
-        right: -200px; /* Adjust to pull image even more to the left */
-        padding-left: 0; /* Reset padding */
+        right: 0;'
+        padding-left: 500;
     }
 
     /* Add padding to sections to avoid overlap */
     section {
-        padding-left: 50px;  /* Adjust padding for the left side */
-        padding-right: 100px; /* Right padding adjusted */
-        position: relative;   /* Make it the relative parent of absolutely positioned images */
+        padding-left: 50px;  /* Adjust based on image size */
+        padding-right: 80px; /* Adjust based on image size */
+        position: relative;   /* Make it the relative parent of absolute positioned images */
     }
+    
+   
 </style>
 
 /*################## */
