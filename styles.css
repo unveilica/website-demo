@@ -228,7 +228,7 @@ section {
         display: block;
         color: black;
         margin-top: 10px;
-        text-align: center; /* Center the title text */
+        text-align: center; /* Keep title centered */
     }
 
     /* General styles for the images */
@@ -236,39 +236,43 @@ section {
         width: 150px;  /* Adjust as needed */
         height: auto;
         margin-left: auto;
-        margin-right: auto; /* Center the images */
-        display: block; /* Ensures it's a block element, so margin auto works */
+        margin-right: auto; /* Keep centering the images within their container */
+        display: block; /* Ensures it's a block element */
     }
 
     /* Left image styles */
     .left-image_pr {
-        margin-left: 0;
+        position: relative;
+        left: -100px;  /* Move left image closer to the left */
     }
 
     /* Right image styles */
     .right-image_pr {
-        margin-right: 0;
+        position: relative;
+        right: -100px; /* Move right image closer to the left */
     }
-    
+
     /* Additional image class styles */
     .class-image_pr {
-        margin-right: 0;
+        position: relative;
+        right: -100px; /* Adjust as needed to shift images left */
     }
 
     /* KPI image specific style */
     .KPI-image_pr {
-        margin-right: 0;
-        padding-left: 500px; /* Adjust as needed */
+        position: relative;
+        right: -100px; /* Adjust to pull image left */
+        padding-left: 0; /* Reset padding */
     }
 
     /* Add padding to sections to avoid overlap */
     section {
-        padding-left: 50px;  /* Adjust based on image size */
-        padding-right: 50px; /* Equal padding for both left and right */
+        padding-left: 50px;  /* Adjust padding for the left side */
+        padding-right: 100px; /* Right padding adjusted */
         position: relative;   /* Make it the relative parent of absolutely positioned images */
-        text-align: center;   /* Center everything inside the section */
     }
 </style>
+
 
 /*################## */
 
