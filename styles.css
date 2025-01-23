@@ -239,7 +239,7 @@ section {
         transform: translateY(-50%);
         width: 150px;  /* Adjust as needed */
         height: auto;
-        margin-left: -500;
+        margin-left: -100;
 
     }
 
@@ -268,7 +268,7 @@ section {
     /* Add padding to sections to avoid overlap */
     section {
         padding-left: 50px;  /* Adjust based on image size */
-        padding-right: 80px; /* Adjust based on image size */
+        padding-right: 150px; /* Adjust based on image size */
         position: relative;   /* Make it the relative parent of absolute positioned images */
     }
     
