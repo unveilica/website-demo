@@ -268,7 +268,7 @@ section {
     /* Add padding to sections to avoid overlap */
     section {
         padding-left: 50px;  /* Adjust based on image size */
-        padding-right: 150px; /* Adjust based on image size */
+        padding-right: 300px; /* Adjust based on image size */
         position: relative;   /* Make it the relative parent of absolute positioned images */
     }
     
