@@ -222,58 +222,54 @@ section {
 
 
 /*################## */
-#demonstrations-title {
-    display: block;
-    color: black; /* Ensure it's visible */
-    margin-top: 10px;
-    padding-left: 300px;
-
-}
-
-
 <style>
+    /* Title centering */
+    #demonstrations-title {
+        display: block;
+        color: black;
+        margin-top: 10px;
+        text-align: center; /* Center the title text */
+    }
+
     /* General styles for the images */
     .section-image {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
         width: 150px;  /* Adjust as needed */
         height: auto;
-        margin-left: -100;
-
+        margin-left: auto;
+        margin-right: auto; /* Center the images */
+        display: block; /* Ensures it's a block element, so margin auto works */
     }
 
     /* Left image styles */
     .left-image_pr {
-        left: 0;
+        margin-left: 0;
     }
 
     /* Right image styles */
     .right-image_pr {
-        right: 0;
+        margin-right: 0;
     }
     
-    /* Right image styles */
+    /* Additional image class styles */
     .class-image_pr {
-        right: 0;
+        margin-right: 0;
     }
 
-
-    /* Right image styles */
+    /* KPI image specific style */
     .KPI-image_pr {
-        right: 0;'
-        padding-left: 500;
+        margin-right: 0;
+        padding-left: 500px; /* Adjust as needed */
     }
 
     /* Add padding to sections to avoid overlap */
     section {
         padding-left: 50px;  /* Adjust based on image size */
-        padding-right: 300px; /* Adjust based on image size */
-        position: relative;   /* Make it the relative parent of absolute positioned images */
+        padding-right: 50px; /* Equal padding for both left and right */
+        position: relative;   /* Make it the relative parent of absolutely positioned images */
+        text-align: center;   /* Center everything inside the section */
     }
-    
-   
 </style>
+
 /*################## */
 
 
