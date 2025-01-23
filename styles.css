@@ -245,23 +245,23 @@ section {
 
     /* Left image styles */
     .left-image_pr {
-        left: 0;
+        right: -100;
     }
 
     /* Right image styles */
     .right-image_pr {
-        right: 0;
+        right: -100;
     }
     
     /* Right image styles */
     .class-image_pr {
-        right: 0;
+        right: -100;
     }
 
 
     /* Right image styles */
     .KPI-image_pr {
-        right: 0;
+        right: -100;
     }
 
     /* Add padding to sections to avoid overlap */
