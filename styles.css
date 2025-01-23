@@ -222,6 +222,7 @@ section {
 
 
 /*################## */
+
 <style>
     /* Title centering */
     #demonstrations-title {
@@ -233,45 +234,42 @@ section {
 
     /* General styles for the images */
     .section-image {
-        width: 150px;  /* Adjust as needed */
+        width: 150px;  /* Adjust width as needed */
         height: auto;
         margin-left: auto;
-        margin-right: auto; /* Keep centering the images within their container */
-        display: block; /* Ensures it's a block element */
+        margin-right: auto;
+        display: block; /* Ensure the image is treated as a block element */
     }
 
-    /* Left image styles */
+    /* Left image styles - pull further to the left */
     .left-image_pr {
-        position: relative;
-        left: -500px;  /* Move left image even further to the left */
+        margin-left: -250px;  /* Pull the left image more to the left */
     }
 
-    /* Right image styles */
+    /* Right image styles - pull further to the left */
     .right-image_pr {
-        position: relative;
-        right: -500px; /* Move right image even further to the left */
+        margin-right: -250px; /* Pull the right image more to the left */
     }
 
     /* Additional image class styles */
     .class-image_pr {
-        position: relative;
-        right: -500px; /* Shift image further left */
+        margin-right: -250px; /* Pull class image more to the left */
     }
 
     /* KPI image specific style */
     .KPI-image_pr {
-        position: relative;
-        right: -200px; /* Adjust to pull image even more to the left */
-        padding-left: 0; /* Reset padding */
-    }
-    /* Add padding to sections to avoid overlap */
-    section {
-        padding-left: 50px;  /* Adjust padding for the left side */
-        padding-right: 100px; /* Right padding adjusted */
-        position: relative;   /* Make it the relative parent of absolutely positioned images */
+        margin-right: -250px; /* Pull KPI image more to the left */
     }
 
+    /* Section styling */
+    section {
+        padding-left: 50px;  /* Adjust left padding */
+        padding-right: 50px; /* Adjust right padding */
+        text-align: center;   /* Keep section text centered */
+        position: relative;   /* Ensure section's positioning context */
+    }
 </style>
+
 
 /*################## */
 
