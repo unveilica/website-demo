@@ -265,12 +265,7 @@ section {
         padding-left: 0; /* Reset padding */
     }
 
-    /* Add padding to sections to avoid overlap */
-    section {
-        padding-left: 50px;  /* Adjust padding for the left side */
-        padding-right: 100px; /* Right padding adjusted */
-        position: relative;   /* Make it the relative parent of absolutely positioned images */
-    }
+
 </style>
 
 /*################## */
