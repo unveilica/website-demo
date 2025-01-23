@@ -243,25 +243,25 @@ section {
     /* Left image styles */
     .left-image_pr {
         position: relative;
-        left: -100px;  /* Move left image closer to the left */
+        left: -200px;  /* Move left image even further to the left */
     }
 
     /* Right image styles */
     .right-image_pr {
         position: relative;
-        right: -100px; /* Move right image closer to the left */
+        right: -200px; /* Move right image even further to the left */
     }
 
     /* Additional image class styles */
     .class-image_pr {
         position: relative;
-        right: -100px; /* Adjust as needed to shift images left */
+        right: -200px; /* Shift image further left */
     }
 
     /* KPI image specific style */
     .KPI-image_pr {
         position: relative;
-        right: -100px; /* Adjust to pull image left */
+        right: -200px; /* Adjust to pull image even more to the left */
         padding-left: 0; /* Reset padding */
     }
 
@@ -272,7 +272,6 @@ section {
         position: relative;   /* Make it the relative parent of absolutely positioned images */
     }
 </style>
-
 
 /*################## */
 
