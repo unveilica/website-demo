@@ -22,6 +22,11 @@ section {
 }
 
 
+p {
+    text-align: justify;
+}
+
+
 /* Reset and Global Styles */
 * {
     margin: 0;
