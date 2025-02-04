@@ -22,6 +22,22 @@ section {
 }
 
 
+/* Hide the 'Powered by Google Translate' text */
+.goog-logo-link {
+  display: none !important;
+}
+
+
+/* Google Translate Button style */
+#google_translate_element {
+    position: absolute;
+    top: 20px;  /* Keep it 20px from the top */
+    margin-right: 300px;  /* Move it to 20px from the left */
+    z-index: 9999;
+}
+
+
+
 p {
     text-align: justify;
 }
