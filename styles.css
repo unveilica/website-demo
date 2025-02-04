@@ -1,0 +1,314 @@
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add some padding to each section for better visibility of scrolling */
+section {
+    padding: 50px 20px;
+}
+
+/* Language selector style */
+.language-selector {
+    position: fixed; /* Ensures it's always in the same spot relative to the page */
+    top: 50%;         /* Vertically center it on the page */
+    left: 50%;        /* Horizontally center it on the page */
+    transform: translate(-50%, -50%); /* Adjusts to ensure the selector is perfectly centered */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+    z-index: 9999;    /* Ensures it's above other content */
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsla(9, 100%, 60%, 0.5);
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+}
+
+/* Header Styling */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Company Logo and Name */
+header .logo-left {
+    display: flex;
+    align-items: center;
+}
+
+header .company-logo {
+    width: 150px;  /* Adjust size of the logo */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;  /* Space between logo and company name */
+    
+}
+
+header .company-name {
+    font-size: 50px;  /* Adjust the size of the company name */
+    font-weight: 600;  /* Make the name bold */
+    color:skyblue
+}
+
+/* Name and Role Section */
+header .name-role-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    padding-top: 400;
+
+}
+
+header .name {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header .role {
+    font-size: 25px;
+    color: lightgray;
+    font-weight: 300;
+}
+
+/* Right Image Section */
+header .logo-right img {
+    width: 150px; /* Adjust size of the image */
+    height: auto;
+    border-radius: 50%; /* Optional, if you want the image to be round */
+}
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* General Section Styling */
+section {
+    max-width: 1000px;  /* Set a max-width to prevent sections from being too wide */
+    margin: 0 auto;  /* Center the section horizontally */
+    padding: 40px 20px;  /* Uniform padding for all sections */
+    margin-bottom: 20px;  /* Reduced gap between sections */
+}
+
+/* About Section */
+#about h2, #experience h2, #skills h2, #projects h2, #services h2, #demonstrations h2, #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: -10px;
+    text-align: center;  /* Center all section titles */
+}
+
+/* About Section */
+#about {
+    padding-top: 290px;  /* Extra top padding for the About section to avoid overlap with the fixed header */
+    padding-bottom: 40px;  /* Bottom padding */
+}
+
+#about p {
+    font-size: 1.3rem;
+    color: #666;
+}
+
+/* Experience Section */
+#experience {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#experience p {
+    font-size: 1.3rem;
+    color: #666;
+}
+
+/* Skills Section */
+#skills {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#skills ul,
+#services ul {
+    list-style-type: disc;
+    padding-left: 300px;  /* Consistent padding-left to align bullets with text */
+    list-style-position: inside;  /* Ensure bullets are inside the list */
+    text-align: left;  /* Align bullets and text to the left */
+}
+
+#skills ul li, 
+#services ul li {
+    font-size: 1.3rem;
+ /*   margin-bottom: 10px;*/
+}
+
+/* Service Section */
+#services {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: -50px;
+    margin-top: 20px;
+}
+
+/* Project Section */
+#projects p{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    margin-bottom: -50px;
+    margin-top: 10px;
+}
+
+#services ul 
+ {
+    list-style-type: disc;
+    padding-left: 300px;  /* Consistent padding-left to align bullets with text */
+    list-style-position: inside;  /* Ensure bullets are inside the list */
+    text-align: left;  /* Align bullets and text to the left */
+}
+
+#services ul li
+{
+    font-size: 1.3rem;
+    /* margin-bottom: 10px;*/
+}
+
+
+/*################## */
+#demonstrations-title {
+    display: block;
+    color: black; /* Ensure it's visible */
+    margin-top: 10px;
+    padding-left: 300px;
+
+}
+
+
+<style>
+    /* General styles for the images */
+    .section-image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 150px;  /* Adjust as needed */
+        height: auto;
+        margin-left: -100;
+
+    }
+
+    /* Left image styles */
+    .left-image_pr {
+        right: -100;
+    }
+
+    /* Right image styles */
+    .right-image_pr {
+        right: -100;
+    }
+    
+    /* Right image styles */
+    .class-image_pr {
+        right: -100;
+    }
+
+
+    /* Right image styles */
+    .KPI-image_pr {
+        right: -100;
+    }
+
+    /* Add padding to sections to avoid overlap */
+    section {
+        padding-left: 50px;  /* Adjust based on image size */
+        padding-right: 80px; /* Adjust based on image size */
+        position: relative;   /* Make it the relative parent of absolute positioned images */
+    }
+    
+   
+</style>
+/*################## */
+
+
+/* Contact Section */
+#contact {
+    padding-top: 5px;
+    padding-bottom: 50px;
+
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
+#contact ul li {
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
