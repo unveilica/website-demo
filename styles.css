@@ -128,7 +128,7 @@ header .role {
 /* Right Image Section */
 header .logo-right img {
     width: 150px; /* Adjust size of the image */
-    height: auto;
+    height: 150px;   /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     border-radius: 50%; /* Optional, if you want the image to be round */
 }
 
