@@ -248,12 +248,15 @@ section {
 
     /* Left image styles */
     .left-image_pr {
-        right: 200;
+        right: -100;
+        margin-left: 100px;
+        
     }
 
     /* Right image styles */
     .right-image_pr {
-        right: 200;
+        right: -100;
+        margin-left: 100px;
     }
     
     /* Right image styles */
