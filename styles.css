@@ -244,19 +244,36 @@ section {
 
 
 /*########################################################## */
+#demonstrations-title {
+    display: block;
+    color: black; /* Ensure it's visible */
+    margin-top: 10px;
+    padding-left: 300px;
 
+}
+
+
+<style>
+    /* General styles for the images */
+    .section-image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 150px;  /* Adjust as needed */
+        height: auto;
+        margin-left: -100;
+
+    }
 
     /* Left image styles */
     .left-image_pr {
         right: -100;
-        margin-left: 100px;
         
     }
 
     /* Right image styles */
     .right-image_pr {
         right: -100;
-        margin-left: 100px;
     }
     
     /* Right image styles */
@@ -271,7 +288,16 @@ section {
     }
 
 
-/*#######################################################*/
+        /* Add padding to sections to avoid overlap */
+    section {
+        padding-left: 50px;  /* Adjust based on image size */
+        padding-right: 80px; /* Adjust based on image size */
+        position: relative;   /* Make it the relative parent of absolute positioned images */
+    }
+    
+   
+</style>
+/*################## */
 
 /* Contact Section */
 #contact {
