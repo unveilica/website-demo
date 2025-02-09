@@ -243,27 +243,8 @@ section {
 }
 
 
-/*################## */
-#demonstrations-title {
-    display: block;
-    color: black; /* Ensure it's visible */
-    margin-top: 10px;
-    padding-left: 300px;
+/*########################################################## */
 
-}
-
-
-<style>
-    /* General styles for the images */
-    .section-image {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 150px;  /* Adjust as needed */
-        height: auto;
-        margin-left: -100;
-
-    }
 
     /* Left image styles */
     .left-image_pr {
