@@ -267,17 +267,8 @@ section {
         right: -100;
     }
 
-    /* Add padding to sections to avoid overlap */
-    section {
-        padding-left: 50px;  /* Adjust based on image size */
-        padding-right: 80px; /* Adjust based on image size */
-        position: relative;   /* Make it the relative parent of absolute positioned images */
-    }
-    
-   
-</style>
-/*################## */
 
+/*#######################################################*/
 
 /* Contact Section */
 #contact {
