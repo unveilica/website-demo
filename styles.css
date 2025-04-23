@@ -102,8 +102,7 @@ header .company-logo {
 header .company-name {
     font-size: 30px;  /* Adjust the size of the company name */
     font-weight: 300;  /* Make the name bold */
-    color:skyblue;
-    margin-top: 0px; /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+    color:skyblue
 }
 
 
