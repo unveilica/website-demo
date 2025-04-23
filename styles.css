@@ -91,7 +91,7 @@ header .logo-left {
     display: flex;
     flex-direction: column; /* Stack company name above logo */
     align-items: center;     /* Center both horizontally */
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 header .company-logo {
