@@ -98,8 +98,12 @@ header .company-logo {
     
 }
 
-
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+header .company-name {
+    font-size: 50px;  /* Adjust the size of the company name */
+    font-weight: 600;  /* Make the name bold */
+    color:skyblue;
+    margin-top: 5px; /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+}
 
 
 /* Name and Role Section */
