@@ -178,7 +178,7 @@ section {
 
 /* About Section */
 #about {
-    padding-top: 500px;  /* Extra top padding for the About section to avoid overlap with the fixed header */
+    padding-top: 370px;  /* Extra top padding for the About section to avoid overlap with the fixed header */
     padding-bottom: 40px;  /* Bottom padding */
 }
 
