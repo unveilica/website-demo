@@ -98,7 +98,6 @@ header .company-logo {
     width: 150px;  /* Adjust size of the logo */
     height: auto;
     border-radius: 50%;
-    margin-top: 10px; /* Optional spacing below company name */
 }
 
 header .company-name {
