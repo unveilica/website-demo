@@ -83,11 +83,10 @@ header .header-content {
     width: 100%;
 }
 
-/* Company Logo and Name */
-header .logo-left {
-    display: flex;
-    align-items: center;
-}
+
+
+/* Company Logo and Name xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 
 header .company-logo {
     width: 150px;  /* Adjust size of the logo */
